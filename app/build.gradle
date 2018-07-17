@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "com.weihuagu.yellbroadcast"
         minSdkVersion 19
-        targetSdkVersion 27
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
 
@@ -15,6 +15,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:3.3'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
 }
