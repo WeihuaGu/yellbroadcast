@@ -22,9 +22,8 @@ public class MyBroadcastReceiver extends BroadcastReceiver{
 	
 	//new Speech(context.getApplicationContext()).speak(yellcontent);
 	Vibrator vibrator = (Vibrator)context.getApplicationContext().getSystemService(context.getApplicationContext().VIBRATOR_SERVICE);
-long[] patter = {1000, 1000, 2000, 50};
-vibrator.vibrate(patter, 0);
-
-        abortBroadcast ();
+    long[] patter = {1000, 1000, 2000, 50};
+    vibrator.vibrate(patter, 15);
+    abortBroadcast ();
     }
 }
